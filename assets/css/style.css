@@ -21,6 +21,7 @@ body {
 .mainSection {
   max-width: 960px;
   margin-bottom: 75px;
+  padding-bottom: 75px;
 }
 
 h1 {
@@ -79,8 +80,8 @@ h3 {
 
 .leftBox img {
   padding: 0px 20px 0px 0px;
-  height: 150px;
-  width: 200px;
+  max-height: 150px;
+  max-width: 200px;
   float: left;
 }
 
@@ -113,8 +114,8 @@ h3 {
 }
 
 .connect img {
-  width: 65px;
-  height: 65px;
+  max-width: 65px;
+  max-height: 65px;
 }
 
 .footer-copyright {
@@ -125,6 +126,7 @@ h3 {
   border-top: 8px solid #4aaaa5;
   line-height: 8;
   font-size: 10px;
+  margin-top: 75px;
 }
 
 input {
@@ -178,7 +180,7 @@ form {
 }
 
 .leftBoxPort img {
-  height: 150px;
-  width: 294px;
+  max-height: 150px;
+  max-width: 294px;
   padding: 10px 10px 10px 10px;
 }
