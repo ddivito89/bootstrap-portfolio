@@ -4,54 +4,71 @@
 <head>
   <meta charset="utf-8">
   <title>Dave Di Vito - Homepage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<div></div <body>
-<div>
-  <header>
-    <div class="navbar">
-      <div class="titleName">
-        <li class="titleName">
-          <h1>Dave Di Vito</h1></li>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" id="titleName">Dave Di Vito</a>
       </div>
-      <div class="nav">
-        <li>
-          <h4><a href="./contact.html">Contact</a></h4></li>
-        <li>
-          <h4><a>|</a></h4></li>
-        <li>
-          <h4><a href="./portfolio.html">Portfolio</a></h4></li>
-        <li>
-          <h4><a>|</a></h4></li>
-        <li>
-          <h4><a href="./index.html">About</a></h4></li>
-      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
     </div>
-  </header>
-  <div class="mainSection">
-    <div class="mainContent">
-      <div class="leftBoxPort">
+  </nav>
+  <div class="container-fluid mainSection">
+    <div class="row">
+      <div class="col-md-8">
+          <div class="leftBoxPort">
           <h1>Portfolio</h1>
-              <a href=""><img src="./assets/images/placeholder2.jpeg" / /></a>
-              <a href=""><img src="./assets/images/placeholder3.jpeg" /></a>
-              <a href=""><img src="./assets/images/placeholder4.jpeg" /></a>
-              <a href=""><img src="./assets/images/placeholder5.jpeg" /></a>
-              <a href=""><img src="./assets/images/placeholder6.jpeg" /></a>
+          <div class="row">
+            <div class="col-md-6">
+              <a href=""><img src="./assets/images/placeholder2.jpeg" class="img-responsive"/></a>
+            </div>
+            <div class="col-md-6">
+              <a href=""><img src="./assets/images/placeholder3.jpeg" class="img-responsive"/></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href=""><img src="./assets/images/placeholder4.jpeg" class="img-responsive"/></a>
+            </div>
+            <div class="col-md-6">
+              <a href=""><img src="./assets/images/placeholder5.jpeg" class="img-responsive"/></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href=""><img src="./assets/images/placeholder6.jpeg" class="img-responsive"/></a>
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="connect">
-        <h2>Connect with Me</h2>
-        <div id="links">
-          <a href="https://github.com/ddivito89" target="_"><img src="./assets/images/github.png"/></a>
-          <a href="https://www.linkedin.com/in/ddivito" target="_"><img src="./assets/images/linkedin.png"/></a>
-          <a href="https://stackexchange.com/users/12108905/ddivito" target="_"><img src="./assets/images/stack.png"/></a>
+      <div class="col-md-4">
+        <div class="connect">
+          <h2>Connect with Me</h2>
+          <div id="links">
+            <a href="https://github.com/ddivito89" target="_"><img src="./assets/images/github.png"/></a>
+            <a href="https://www.linkedin.com/in/ddivito" target="_"><img src="./assets/images/linkedin.png"/></a>
+            <a href="https://stackexchange.com/users/12108905/ddivito" target="_"><img src="./assets/images/stack.png"/></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <footer>
-    @Copyright 2017 David Di Vito
+  </div>
+  <footer class="footer navbar-fixed-bottom">
+    <div class="footer-copyright">
+      @Copyright 2017 David Di Vito
+    </div>
   </footer>
-</div>
 </body>
 
 </html>
